@@ -1,5 +1,6 @@
 package ru.synergy.fragmentlifecycleexample.fragments;
 
+//import android.app.Fragment;
 import android.content.Context;
 import android.os.Bundle;
 
@@ -23,7 +24,7 @@ import ru.synergy.fragmentlifecycleexample.R;
  */
 public class SecondFragment extends Fragment {
 
-    private static final String TAG = "FRAGMENT1";
+    private static final String TAG = "FRAGMENT2";
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -90,10 +91,10 @@ public class SecondFragment extends Fragment {
     }
 
     @NonNull
-    @Override
-    public Lifecycle getLifecycle() {
-        return super.getLifecycle();
-    }
+//    @Override
+//    public Lifecycle getLifecycle() {
+//        return super.getLifecycle();
+//    }
 
     @Override
     public void onStart() {

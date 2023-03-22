@@ -16,9 +16,9 @@ import ru.synergy.fragmentlifecycleexample.R;
 
 public class FirstFragment extends Fragment {
 
-    private static final String TAG = "FRAGMENT2";
+    private static final String TAG = "FRAGMENT1";
 
-    public static FirstFragment newInstance() {
+    public static FirstFragment newInstance(String s, String s1) {
         FirstFragment fragment = new FirstFragment();
         Bundle args = new Bundle();
         fragment.setArguments(args);
